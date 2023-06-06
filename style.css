@@ -1,16 +1,5 @@
-/*
-Theme Name: Positivie Thkinking Company
-Theme URI: https://worldofdigits.com/
-Author: Wod
-Author URI: https://worldofdigits.com/
-Description: Theme for PTC
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: positivethinkingcompany
-*/
+
 html {
-    /*it means 10px if default font-size browser is 16px */
     font-size: 62.5%;
   }
   body {
@@ -3432,13 +3421,13 @@ html {
   @media (min-width: 720px) {
   
     .footer__logo {
-        margin-right: 30px
+        margin-right: 10px
     }
       }
   @media (min-width: 1300px) {
   
     .footer__logo {
-        margin-right: 160px
+        margin-right: 10px
     }
       }
   .footer__logo img {
@@ -4216,7 +4205,10 @@ html {
   @media (min-width: 1300px) {
   
         .slider-career__box:last-of-type {
-            padding: 0 120px
+            padding: 0 20px
+        }
+        .slider-career__item.f-layout.f-layout--reverse.slick-slide.slick-current.slick-active{
+            flex-direction: row !important;
         }
           }
   @media (max-width: 899px) {
@@ -12904,6 +12896,7 @@ html {
           }
   .js-slider-dots {
       outline: none;
+      display:none !important;
   }
   .modal-open {
     overflow: hidden;
