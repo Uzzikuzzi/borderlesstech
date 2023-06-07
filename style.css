@@ -1,5 +1,16 @@
-
+/*
+Theme Name: Positivie Thkinking Company
+Theme URI: https://worldofdigits.com/
+Author: Wod
+Author URI: https://worldofdigits.com/
+Description: Theme for PTC
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: positivethinkingcompany
+*/
 html {
+    /*it means 10px if default font-size browser is 16px */
     font-size: 62.5%;
   }
   body {
@@ -3462,7 +3473,7 @@ html {
     .footer__inner {
         margin-left: calc(10px + 80px);
         margin-left: calc(10px + 80px);
-        margin-left: calc(var(--global-padding-h) + 80px);
+        margin-left: calc(var(--global-padding-h));
         margin-right: 10px;
         margin-right: 10px;
         margin-right: var(--global-padding-h);
@@ -3680,8 +3691,7 @@ html {
           font-size: 2rem;
         }
   @media (min-width: 720px) {
-      .footer__logo {
-      }
+      
   
       .footer__lists {
         -webkit-box-flex: 1;
@@ -3838,6 +3848,16 @@ html {
       grid-gap           : 120px;
       grid-gap           : 120px;
       gap           : 120px;
+    }
+    @media(min-width: 1300px){
+      .footer__legal{
+        display: flex;
+        flex-wrap: wrap !important;
+      }
+      .menu-item-33152,
+.menu-item-51978{
+  display: none;
+}
     }
   
       .vidtext__title {
@@ -5028,9 +5048,7 @@ html {
         }
   @media (min-width: 1250px) {
   
-      
-  
-      .blog-overview__list-item--cta {
+    .blog-overview__list-item--cta {
           grid-column: span 2
       }
         }
@@ -5038,12 +5056,12 @@ html {
       font-size  : 2rem;
       font-family: 'blogger'
     }
-  @media (min-width: 600px) {
+  /* @media (min-width: 1300px) {
   
     .blog-overview__title {
-        font-size  : 3.4rem
+        font-size  : 2rem
     }
-      }
+      } */
   .blog-overview__link {
       text-decoration: none;
       color          : inherit;
@@ -9818,8 +9836,8 @@ html {
   }
   @media (min-width: 720px) {
   .video-card {
-      -webkit-box-shadow: 40px 40px 99px rgba(255, 0, 68, .3);
-              box-shadow: 40px 40px 99px rgba(255, 0, 68, .3)
+      -webkit-box-shadow: 40px 40px 99px rgba(0, 75, 253, 0.3);
+      box-shadow: 40px 40px 99px rgba(0, 75, 253, 0.3);
   }
     }
   .video-card::before {
